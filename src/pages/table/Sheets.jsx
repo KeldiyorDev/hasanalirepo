@@ -10,7 +10,7 @@ export default function Sheets() {
     console.log(tableData);
 
     useEffect(() => {
-        axiosInstance.post(`auth/login`, {
+        axiosInstance.post(`api/login`, {
             username: "admin",
             password: "admin"
         }).then(res => {

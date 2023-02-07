@@ -7,4 +7,4 @@ export const axiosInstance = axios.create({
     // }
 });
 
-export const urlFile = "https://localhost:8080/";
+export const urlFile = "http://localhost:8080/";
